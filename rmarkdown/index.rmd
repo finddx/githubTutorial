@@ -806,8 +806,15 @@ in Git (see Working with branches of this tutorial)
 
 #### ***RStudio***
 
-Open the Git window and select History in the ribbon area
+In RStudio open the Git window and select "History" in the ribbon area. You 
+will see all the commits history and some related metadata. Click on the commit 
+you want to restore and open the file, then you can simply click on "Save as" 
+to overwrite the file to the old version selected. Please note that you can also
+click on the "Revert" button, but this will only retrieve the previous 
+non-committed file.
 
+![](./media/image43.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 **\
 **
 
