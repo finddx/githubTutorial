@@ -1,5 +1,9 @@
 # **Introduction to Git and GitHub**
 
+## **Naming conventions**
+
+The naming convention established by the DSU requires to name your files.... and repositories as....
+
 ## **Main terminology**
 
 **Git**: version control system that allows users work collaboratively
@@ -113,8 +117,8 @@ that there is an executable path, usually is something like this:
 “C:/Users/YOURUSERNAME/AppData/Local/Programs/Git/bin/git.exe. 
 Click OK to return to RStudio.
 
-![](./media/image34.png){width="6.25in"
-height="3.00in" style="display: block; margin: 0 auto;"}
+![](./media/image34.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 To connect RStudio to Git, run the following commands in the Terminal 
 (not the Console) using the user name and email you already setup in Git and 
@@ -139,8 +143,8 @@ For this example, we are just granting permissions to do basic operations in
 the repository (commit, pull, push, etc.), but you could potentially grant 
 additional admins permissions.
 
-![](./media/image35.png){width="6.25in"
-height="3.00in" style="display: block; margin: 0 auto;"}
+![](./media/image35.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 Once you have obtained the token, use the function 
 gitcreds::gitcreds_set(url="https://github.com"), and specify github as the 
@@ -174,13 +178,13 @@ while private repositories can only be accessed by authorized
 collaborators. After this simply click on "Create repository".
 
 
-![](./media/image1.png){width="6.25in"
-height="3.00in" style="display: block; margin: 0 auto;"}
+![](./media/image1.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 And you should see now an empty repository.
 
-![](./media/image2.png){width="6.25in"
-height="3.00in" style="display: block; margin: 0 auto;"}
+![](./media/image2.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 
 **\
@@ -197,14 +201,14 @@ modifications are made, push them into the GitHub remote repository.
 To clone an empty repository, copy the URL that would appear on the new
 repository page.
 
-![](./media/image3.png){width="6.25in"
-height="2.80in" style="display: block; margin: 0 auto;"}
+![](./media/image3.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 Or if you want to clone a repository with existing files, click on the
 green "Code" button on the repository page, and then copy the URL.
 
-![](./media/image4.png){width="6.25in"
-height="3.30in" style="display: block; margin: 0 auto;"}
+![](./media/image4.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 #### ***GitHub Desktop***
 
@@ -215,8 +219,8 @@ path) where you want to store the repository and click on "Clone". You
 can now go to the local path you chose, and you will see a folder with
 the name of the repository you cloned.
 
-![](./media/image5.png){width="6.25in"
-height="3.00in" style="display: block; margin: 0 auto;"}
+![](./media/image5.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 #### ***Git***
 
@@ -236,8 +240,8 @@ popup the directory name, so you just need to select the folder where you want
 to store the repository locally. Once you click on "Create Project" a new tab 
 called "Git" will appear in the top-right panel.
 
-![](./media/image36.png){width="6.25in"
-height="3.00in" style="display: block; margin: 0 auto;"}
+![](./media/image36.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 **\
 **
@@ -259,20 +263,20 @@ In GitHub Desktop you can create a repository simply by clicking on
 below to add basic information about the repository such as name, the
 location of the local repository, etc.
 
-![](./media/image6.png){width="6.25in"
-height="3.60in" style="display: block; margin: 0 auto;"}
+![](./media/image6.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 After creating a local repository you will see that you are now asked to
 publish the repository to GitHub.
 
-![](./media/image7.png){width="6.25in"
-height="3.70in" style="display: block; margin: 0 auto;"}
+![](./media/image7.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 Click on "Publish repository" to link the repository to a GitHub
 account.
 
-![](./media/image8.png){width="6.25in"
-height="3.50in" style="display: block; margin: 0 auto;"}
+![](./media/image8.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 #### ***Git***
 
@@ -363,8 +367,8 @@ In GitHub Desktop when there is no modifications the screen will look
 like the image below, indicating there are "No local changes", you can
 also observe that the left area indicates "0 changed files".
 
-![](./media/image9.png){width="6.25in"
-height="3.70in" style="display: block; margin: 0 auto;"}
+![](./media/image9.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 However, if we add a file or modify some pieces of the script, those
 will be highlighted in the screen (green for all the information we add,
@@ -374,8 +378,8 @@ simply prints "Hello" + the name of the person. If we save this file, we
 will observe that everything is in green because there are now new files
 that did not exist before.
 
-![](./media/image10.png){width="6.25in"
-height="2.70in" style="display: block; margin: 0 auto;"}
+![](./media/image10.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 You can see that on the left area (image above) everything is
 automatically selected, this indicates that all the files are now in the
@@ -390,8 +394,8 @@ example due to it is the first commit, we can put something like
 "Initial commit". After this, click on "Commit to main" to commit the
 changes from the local repository to the remote repository in GitHub.
 
-![](./media/image11.png){width="6.25in"
-height="3.10in" style="display: block; margin: 0 auto;"}
+![](./media/image11.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 #### ***Git***
 
@@ -422,8 +426,8 @@ In RStudio, files that have been modified will appear in the top-right area.
 In this area is possible to simply select the files to stage them and then 
 click on "Commit".
 
-![](./media/image37.png){width="6.25in"
-height="3.00in" style="display: block; margin: 0 auto;"}
+![](./media/image37.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 Once you click on "Commit", a new window will popup allowing to add the commit 
 message, and from here simply commit the files and a small pop up message 
@@ -431,8 +435,8 @@ will appear indicating the modifications made. As you may observe new
 modifications are highlighted in green while old version of the files are in 
 red. The non-highlighted data indicates that they were not modifications.
 
-![](./media/image38.png){width="6.25in"
-height="3.00in" style="display: block; margin: 0 auto;"}
+![](./media/image38.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 **\
 **
@@ -451,15 +455,15 @@ asking to push the changes to the remote repository, simply click on
 also observe that now it says "0 changed files", as all of them are now
 committed.
 
-![](./media/image12.png){width="6.25in"
-height="3.00in" style="display: block; margin: 0 auto;"}
+![](./media/image12.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 If you now go to the GitHub repository, you will see the new
 files/changes and all the information about the commit (i.e., commit
 message, date of the commit, etc.).
 
-![](./media/image13.png){width="6.25in"
-height="2.50in" style="display: block; margin: 0 auto;"}
+![](./media/image13.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 #### ***Git***
 
@@ -474,8 +478,8 @@ In RStudio, once files have been committed simply click on "Push" to move the
 files to the remote repository, a small popup will appear indicating the 
 details of this action.
 
-![](./media/image39.png){width="6.25in"
-height="3.00" style="display: block; margin: 0 auto;"}
+![](./media/image39.png){width="8.00in"
+height="4.50" style="display: block; margin: 0 auto;"}
 
 Please note, you can do all these operations in the pop up window that appeared
 after clicking on commit, or can be done directly in the "Git" tab 
@@ -499,8 +503,8 @@ the repository locally, and then committed and pushed the files to the
 remote repository, so now we can see in GitHub the changes that this
 person made.
 
-![](./media/image14.png){width="6.25in"
-height="2.70in" style="display: block; margin: 0 auto;"}
+![](./media/image14.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 #### ***GitHub Desktop***
 
@@ -512,8 +516,8 @@ update the connection). To get the newest changes from the remote
 repository to the local one, click on "Pull origin" and you will see
 that the new modifications/files are now added to the local repository.
 
-![](./media/image15.png){width="6.25in"
-height="3.00in" style="display: block; margin: 0 auto;"}
+![](./media/image15.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 #### ***Git***
 
@@ -528,8 +532,8 @@ in the Git popup window, a new message will appear indicating the files that
 changed, once you return to Rstudio main interface you will observe that the 
 script has bee updated.
 
-![](./media/image40.png){width="6.25in"
-height="3.00in" style="display: block; margin: 0 auto;"}
+![](./media/image40.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 **\
 **
 
@@ -551,8 +555,8 @@ In GitHub, you can create an empty branch by clicking on the "main"
 branch filed and then a small window will pop up so you can put the name
 of the new branch.
 
-![](./media/image16.png){width="6.25in"
-height="2.90in" style="display: block; margin: 0 auto;"}
+![](./media/image16.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 #### ***GitHub Desktop***
 
@@ -560,8 +564,8 @@ In GitHub Desktop you can simply go to "Current branch" in the upper
 ribbon area and click on "New branch", from there put the name of the
 new branch and click on "Create branch".
 
-![](./media/image17.png){width="6.25in"
-height="3.00in" style="display: block; margin: 0 auto;"}
+![](./media/image17.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 To create a new branch and add directly the new modifications, you need
 of course to have new changes that have not been committed yet. Let's
@@ -572,8 +576,8 @@ in the image below, GitHub will then highlight in red the pieces of code
 that will no longer exist and in green the pieces that were added.
 Pieces or files that were not changed will not be highlighted. 
 
-![](./media/image18.png){width="6.25in"
-height="3.00in" style="display: block; margin: 0 auto;"}
+![](./media/image18.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 Then, you can of course commit those new changes to the remote
 repository, but before that, we need to create a new branch, so these
@@ -582,22 +586,22 @@ this example, we created a branch called "example-1". To do that click
 on main (see image below) and type the name of the new branch and click
 on "Create new branch".
 
-![](./media/image19.png){width="6.25in"
-height="3.00n" style="display: block; margin: 0 auto;"}
+![](./media/image19.png){width="8.00in"
+height="4.50n" style="display: block; margin: 0 auto;"}
 
 Select "Bring my changes to -name of the new branch-" and click on
 "Switch branch"
 
-![](./media/image20.png){width="6.25in"
-height="3.00in" style="display: block; margin: 0 auto;"}
+![](./media/image20.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 Now you will see that the current branch is set to the new branch name,
 and then you can commit and push the changes to the remote repository as
 we already saw in the corresponding section. If you now go to the GitHub
 repository you will see that the new branch is now live.
 
-![](./media/image21.png){width="6.25in"
-height="3.00in" style="display: block; margin: 0 auto;"}
+![](./media/image21.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 #### ***Git***
 
@@ -619,8 +623,8 @@ In RStudio, click on the icon highlighted in the image below a type the name for
 the new branch, you can select "Sync branch with remote" to add the branch 
 automatically in the remote repository.
 
-![](./media/image41.png){width="6.25in"
-height="3.00in" style="display: block; margin: 0 auto;"}
+![](./media/image41.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 **\
 **
@@ -638,8 +642,8 @@ merge a new branch with the main branch, go to the remote repository and
 you will see a message indicating "Compare & pull request" and simply
 click on it.
 
-![](./media/image22.png){width="6.25in"
-height="3.00in" style="display: block; margin: 0 auto;"}
+![](./media/image22.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 A new window will appear with several pieces of information (see image
 below). It will indicate whether those branches are "Able to merge"
@@ -650,22 +654,22 @@ the modifications made as we previously saw when we created this new
 branch in GitHub Desktop (new additions are in green and deleted
 information is in red).
 
-![](./media/image23.png){width="6.25in"
-height="4.00in" style="display: block; margin: 0 auto;"}
+![](./media/image23.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 After clicking on "Create pull request", a new window will appear
 validating this merge and if no issues arises, it would indicate there
 are not conflicts and you will be free to merge ("Merge pull request"
 button and then confirm merge).
 
-![](./media/image24.png){width="6.25in"
+![](./media/image24.png){width="8.00in"
 height="3.30in" style="display: block; margin: 0 auto;"}
 
 Once the merging is finished, you will be asked if you want to delete
 the temporal branch, simply click on "Delete branch".
 
-![](./media/image25.png){width="6.25in"
-height="3.00in" style="display: block; margin: 0 auto;"}
+![](./media/image25.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 Note that GitHub keeps track of any change, so if you click on the main
 branch field you can access all closed (and open) branches and restore
@@ -680,15 +684,15 @@ you want to merge another branch (usually main or master). Then click
 again in the "Current branch" tab and click on "Choose a branch to merge
 into -branch name-" .
 
-![](./media/image26.png){width="6.25in"
-height="3.70in" style="display: block; margin: 0 auto;"}
+![](./media/image26.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 Select the branch you want to merge into the current branch and click on
 "Create a merge commit". Then, you can simply push the commit to the
 remote repository.
 
-![](./media/image27.png){width="6.25in"
-height="3.60in" style="display: block; margin: 0 auto;"}
+![](./media/image27.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 #### ***Git***
 
@@ -699,20 +703,23 @@ the name of the branch you want to merge: `git merge -branch name to merge-`,
 for this example, would be: `git merge example-1`. Then, you will need to 
 stage, commit, and push to the remote repository.
 
+#### ***RStudio***
+Rstudio does not allow to easily merge branches directly in the platform. 
+However, this can be achieved directly in GitHub or through the git4r library.
+
 **\
 **
 
 ## **Dealing with conflicts**
 
-Working in a collaborative project sometimes involves different users
-working on the same piece of code and coming up with different
-approaches for the same solution. This will of course create conflict
-because we would have two (or more) branches with different versions of
-the same file.
+Collaborative project involves sometimes different users working on the
+same piece of code and coming up with different approaches for the same 
+solution. This will of course create conflict because we would have two 
+(or more) branches with different versions of the same file.
 
 Sometimes, we can integrate the different solutions as part of the main
 project or use some parts of each solution to create a new one, but in
-most cases will be necessary to choose only want solution and remove
+most cases it will be necessary to choose only one solution and remove the
 others. Whatever the case, we need to take decisions and use just the
 part of the code we want to integrate into our main project.
 
@@ -723,8 +730,8 @@ with the conflict markers: \<\<\<\<\<\<\<HEAD "conflict code branch 1"
 ======= "conflict code branch 2" \>\>\>\>\>\> along with the name of the
 commit where the issue is present (see image below).
 
-![](./media/image28.png){width="6.25in"
-height="2.30in" style="display: block; margin: 0 auto;"}
+![](./media/image28.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 What you need to do is to open the file where there
 is a conflict; here for example: \<\<\<\<\<\<\< HEAD
@@ -737,15 +744,32 @@ remove: \<\<\<\<\<\<\< HEAD ======= print(paste(\"Hello\",name))
 \>\>\>\>\>\>\> parent of 11a1c61 (Add welcome sentence to
 hello_function.R) }.
 
-![](./media/image29.png){width="6.25in" 
-height="3.00in" style="display: block; margin: 0 auto;"}
+![](./media/image29.png){width="8.00in" 
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 Then you will need to commit the new changes and push them to the remote
 repository as we already saw.
 
 #### ***Git***
 
-In Git, you will need to identify the files that have conflict using `git status`, and as was mentioned for GitHub Desktop, open the conflicted file to look for the conflict markers (\<\<\<\<\<\<\<HEAD "conflict code branch 1" ======= "conflict code branch 2" \>\>\>\>\>\>). Edit the file, keeping the piece of code you want to retain, and then simply stage, commit and push the changes to the remote repository.
+In Git, you will need to identify the files that have conflict using 
+`git status`, and as was mentioned for GitHub Desktop, open the conflicted 
+file to look for the conflict markers (\<\<\<\<\<\<\<HEAD "conflict code 
+branch 1" ======= "conflict code branch 2" \>\>\>\>\>\>). Edit the file, 
+keeping the piece of code you want to retain, and then simply stage, commit 
+and push the changes to the remote repository.
+
+#### ***Git***
+RStudio will highlight (in green) the pieces of code that have a conflict (
+<<<<<<< HEAD conflict code branch 1 ======= conflict code branch2 >>>>>>>),
+and you will need to manually open that file and keep part of the script
+you want to preserve. COnflict markers also need to be removed manually.
+Once, resolved you simply need to commit and push the files to the remote 
+repository.
+
+![](./media/image42.png){width="8.00in" 
+height="4.50in" style="display: block; margin: 0 auto;"}
+
 
 **\
 **
@@ -754,8 +778,8 @@ In Git, you will need to identify the files that have conflict using `git status
 
 As mentioned throughout this tutorial, it is always possible to go back
 to a previous version of a commit in case the new version of the code
-does not work as expected or simply because you want to go back to a
-previous version for any specific reason.
+does not work as expected or simply because you want to check a
+previous version for any specific reasons.
 
 #### ***GitHub Desktop***
 
@@ -764,8 +788,8 @@ the commit you want to restore and click on "Revert changes in commit".
 As you may see, it is also possible to create a new branch from a
 specific commit (Create branch from commit).
 
-![](./media/image30.png){width="6.25in"
-height="3.00in" style="display: block; margin: 0 auto;"}
+![](./media/image30.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 #### ***Git***
 
@@ -779,6 +803,10 @@ file to the state on that specific commit.
 
 Note that the "checkout" command is also used to switch between branches
 in Git (see Working with branches of this tutorial)
+
+#### ***RStudio***
+
+Open the Git window and select History in the ribbon area
 
 **\
 **
@@ -797,8 +825,8 @@ rights). Go to members and teams, and search for the GitHub username you
 want to add. You can assign specific roles to the users such as Admin,
 Write, and Maintain. It is also possible to add Teams or remove members.
 
-![](./media/image31.png){width="6.25in"
-height="3.70in" style="display: block; margin: 0 auto;"}
+![](./media/image31.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 It is also possible to create a new issue, so we can have better control
 over what each user is doing. To do that, go to the issues tab and
@@ -806,8 +834,8 @@ simply click on "New issue". In this area, it is possible to add a title
 for the issue, write a message, but also to assign specific users to the
 user so they can be notified of specific task they need to work on.
 
-![](./media/image32.png){width="6.25in"
-height="2.60in" style="display: block; margin: 0 auto;"}
+![](./media/image32.png){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 Once the issue is resolved (and the user committed and pushed the
 changes to the remote repository), the user can simply click go to the
@@ -828,7 +856,7 @@ way, we need to pull the files from the remote repository to the local
 repository to keep all the local files up to date. Checkout allows
 switching between repository versions or branches.
 
-![](./media/image33.jpeg){width="6.25in"
-height="4.45in" style="display: block; margin: 0 auto;"}
+![](./media/image33.jpeg){width="8.00in"
+height="4.50in" style="display: block; margin: 0 auto;"}
 
 Image source: <https://github.com/szalam/gitwintut>
