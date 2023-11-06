@@ -3,6 +3,7 @@
 ## **Naming conventions**
 
 Repository names should be following the following conventions: **1) General repositories:** all lowercase with a - in between words e.g. find-validation-platform-aws-hosting, **2) Repositories for R packages or shiny applications:** all lowercase with no delimiter in between e.g. findcompositeindicator.
+
 ## **Main terminology**
 
 **Git**: version control system that allows users work collaboratively
